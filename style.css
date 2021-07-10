@@ -26,9 +26,9 @@ body {
 
 .content-headers {
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 12vh;
+    line-height: 13vh;
     letter-spacing: -10px;
-    -webkit-text-stroke: 2px #0000C5; 
+    -webkit-text-stroke: 2px black; 
     color: rgba(0,0,0,0);
 }
 
@@ -47,7 +47,7 @@ body {
     justify-content: center;
     font-size: 3em;
     color: black;
-    background: white;
+    background-color: white;
     letter-spacing: 2px;
 }
 
@@ -83,7 +83,7 @@ body {
 .navbar ul li .dot span {
     display: inline-block;
     /* background: #f44336; */
-    color:#0000C5;
+    color:black;
     /* letter-spacing: 1px; */
     margin-right: 1vw;
     /* border-radius: 3px; */
@@ -123,15 +123,15 @@ body {
 .navbar ul li .dot::before {
     height: 5px;
     width: 5px;
-    border: 2px solid #0000C5;
+    border: 2px solid black;
     right: 0;
     transform: translateY(-50%);
 }
 
 .navbar ul li .dot.active::before, 
 .navbar ul li:hover .dot::before {
-    border-color: #0000C5;
-    background-color: #0000C5;
+    border-color: black;
+    background-color: black;
 }
 
 .navbar ul li .dot::after {
@@ -199,7 +199,7 @@ nav h1 {
 
 nav a {
     text-decoration: none;
-    color:#0000C5;
+    color:black;
 }
 
 
@@ -224,7 +224,8 @@ nav a {
 #parallaxOne h2 {
     line-height: 80px;
     font-size:150px;
-    color: #0000C5;
+    /* color: #0000C5; */
+    color: black;
     letter-spacing: -10px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -265,7 +266,7 @@ nav a {
     display: flex;
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
-    border-left: 10px solid #0000C5;
+    border-left: 1px solid black;
 }
 
 .scroll-container section {
@@ -346,11 +347,11 @@ nav a {
 }
 
 .about-text-container h1 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Questrial', sans-serif;
     letter-spacing: -5px;
     text-align: right;
     font-size: 60px;
-    color: #0000C5;
+    color: black;
 }
 
 .background-image-container {
@@ -364,11 +365,6 @@ nav a {
 
 #sectionThree .project-h2-container {
     padding-top: 10vh;
-}
-
-#sectionFour .content-headers {
-    -webkit-text-stroke: 2px white; 
-    color: rgba(0,0,0,0);
 }
 
 
@@ -385,7 +381,7 @@ nav a {
 
 /* PARALLAX FOUR */
 #parallaxFour {
-    background-color: #0000C5;
+    background-color: white;
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -410,17 +406,17 @@ nav a {
     font-size:35px;
     /* border: 1px solid red; */
     letter-spacing: -4px;
-    color: white;
+    color: black;
 }
 .tools-container a {
     text-decoration: none;
-    color: white;
+    color: black;
     -webkit-transition: 0.2s ease-in-out;
     /* border: 1px solid red; */
 }
 
 .tools-container a:hover {
-    /* color: #0000C5; */
+    /* color: black; */
     /* letter-spacing: -2px; */
     font-size: 50px;
 }
@@ -458,13 +454,9 @@ nav a {
     overflow-y: hidden;
 }
 
-.contact-container {
-    font-family: Arial, Helvetica, sans-serif;
-    letter-spacing: -6px;   
-    /* border: 1px solid red; */
-}
-
 .contact-container h1 {
+    font-family: 'Questrial', sans-serif;
+    letter-spacing: -6px;   
     font-size: 80px;
     display: flex;
     /* float: right; */
@@ -476,7 +468,7 @@ nav a {
 .contact-container h1 a {
     text-decoration: none;
     /* border: 1px solid red; */
-    -webkit-text-stroke: 2px #0000C5; 
+    -webkit-text-stroke: 2px black; 
     color: rgba(0,0,0,0);
     margin-right: 15vw;
     width: 10vw;
@@ -484,24 +476,24 @@ nav a {
 }
 
 .contact-container a:nth-of-type(1) {
-    border-bottom: 2px solid #0000C5;
+    border-bottom: 2px solid black;
 }
 
 .contact-container a:nth-of-type(2) {
-    border-bottom: 2px solid #0000C5;
+    border-bottom: 2px solid black;
 }
 
 .contact-container a:nth-of-type(3) {
-    border-bottom: 2px solid #0000C5;
+    border-bottom: 2px solid black;
 }
 
 .contact-container a:nth-of-type(4) {
-    border-bottom: 2px solid #0000C5;
+    border-bottom: 2px solid black;
 }
 
 .contact-container a:hover {
     padding-right: 12vw;
-    color: #0000C5;
+    color: black;
 }
 
 
@@ -527,7 +519,7 @@ nav a {
 
     .scroll-container {
         border-left: none;
-        border-top: 10px solid #0000C5;
+        border-top: 1px solid black;
     }
 
     .contact-container h1 {
