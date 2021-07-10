@@ -12,7 +12,7 @@ body {
 }
 
 /* universal elements */
-#sectionOne, #sectionTwo, #sectionThree, #sectionFour, #sectionFive {
+#section-main, #section-about, #section-projects, #section-tools, #section-contact {
     /* height: 100vh; */
     scroll-snap-align: start;
 }
@@ -209,8 +209,8 @@ nav a {
 
 
 /* PARALLAX ONE */
-#parallaxOne {
-    background-image: url("parallaxOne-bg.jpg");
+#parallax-main {
+    background-image: url("parallax-main-bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     font-weight: bold;
@@ -221,7 +221,7 @@ nav a {
     align-items: flex-end;
 }
 
-#parallaxOne h2 {
+#parallax-main h2 {
     line-height: 80px;
     font-size:150px;
     /* color: #0000C5; */
@@ -230,13 +230,13 @@ nav a {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#parallaxOne div {
+#parallax-main div {
     margin-left: auto;
     margin-right: 15vw;
     margin-bottom: 50vh;
 }
 
-#parallaxOne h2:nth-child(2) {
+#parallax-main h2:nth-child(2) {
     margin-left: 30px;
 }
 
@@ -248,7 +248,7 @@ nav a {
 
 
 /* PARALLAX TWO */
-#parallaxTwo {
+#parallax-about {
     background-color: white;
     padding: 0;
     margin: 0;
@@ -324,7 +324,7 @@ nav a {
 
 
 /* PARALLAX THREE */
-#parallaxThree {
+#parallax-projects {
     /* background-image: url("2.jpg");
     background-attachment: fixed;
     background-size: cover; */
@@ -363,7 +363,7 @@ nav a {
     margin-top: 5vh;
 }
 
-#sectionThree .project-h2-container {
+#section-projects .project-h2-container {
     padding-top: 10vh;
 }
 
@@ -380,7 +380,7 @@ nav a {
 
 
 /* PARALLAX FOUR */
-#parallaxFour {
+#parallax-tools {
     background-color: white;
     padding: 0;
     margin: 0;
@@ -428,16 +428,16 @@ nav a {
 
 
 /* PARALLAX FIVE */
-#sectionFive {
+#section-contact {
     padding-right: 0vw;
     padding-left: 0vw;
 }
 
-#sectionFive .content-headers {
+#section-contact .content-headers {
     padding-left: 10vw;
 }
 
-#parallaxFive {
+#parallax-contact {
     /* background-image: url("contact-bg.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -447,11 +447,9 @@ nav a {
     padding: 0;
     margin: 0;
     width: 100vw;
-    font-family: Arial, Helvetica, sans-serif;
     height: 100vh;
     display: flex;
     flex-direction: column-reverse;
-    overflow-y: hidden;
 }
 
 .contact-container h1 {
@@ -459,7 +457,6 @@ nav a {
     letter-spacing: -6px;   
     font-size: 80px;
     display: flex;
-    /* float: right; */
     flex-direction: column-reverse;   
     align-items: flex-end;
     margin-right: 10vw;
