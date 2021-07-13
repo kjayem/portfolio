@@ -19,7 +19,7 @@ function toggleFunction() {
     }
   }
 
-// Scroll Indicator
+// scroll indicator
 $(document).ready(function(){
         
   $(window).on('scroll',function() {

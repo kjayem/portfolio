@@ -246,9 +246,59 @@ nav a {
 
 
 
-
 /* PARALLAX TWO */
 #parallax-about {
+    /* background-image: url("2.jpg");
+    background-attachment: fixed;
+    background-size: cover; */
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 80vw;
+    overflow-y: hidden;
+}
+
+.about-text-container {
+    margin-top: 5vh;
+    height: 40vh;
+    overflow-y: scroll;
+    width: 60vw;
+    align-self: flex-end;
+    /* border: 1px solid red; */
+}
+
+.about-text-container h1 {
+    font-family: 'Questrial', sans-serif;
+    letter-spacing: -5px;
+    text-align: right;
+    font-size: 60px;
+    color: black;
+}
+
+.background-image-container {
+    background-image: url("3.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-y: bottom;
+    height: 25vh;
+    margin-top: 5vh;
+}
+
+#section-projects .project-h2-container {
+    padding-top: 10vh;
+}
+
+
+
+
+
+
+
+
+/* PARALLAX THREE */
+#parallax-projects {
     background-color: white;
     padding: 0;
     margin: 0;
@@ -312,64 +362,6 @@ nav a {
 .project-four {
     background-image: url("proj-four.jpg");
 }
-
-
-
-
-
-
-
-
-
-
-
-/* PARALLAX THREE */
-#parallax-projects {
-    /* background-image: url("2.jpg");
-    background-attachment: fixed;
-    background-size: cover; */
-    padding: 0;
-    margin: 0;
-    height: 100vh;
-    display: flex;
-    flex-direction: column-reverse;
-    width: 80vw;
-    overflow-y: hidden;
-}
-
-.about-text-container {
-    margin-top: 5vh;
-    height: 40vh;
-    overflow-y: scroll;
-    width: 60vw;
-    align-self: flex-end;
-    /* border: 1px solid red; */
-}
-
-.about-text-container h1 {
-    font-family: 'Questrial', sans-serif;
-    letter-spacing: -5px;
-    text-align: right;
-    font-size: 60px;
-    color: black;
-}
-
-.background-image-container {
-    background-image: url("3.jpg");
-    background-attachment: fixed;
-    background-size: cover;
-    background-position-y: bottom;
-    height: 25vh;
-    margin-top: 5vh;
-}
-
-#section-projects .project-h2-container {
-    padding-top: 10vh;
-}
-
-
-
-
 
 
 
