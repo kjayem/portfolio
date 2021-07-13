@@ -162,7 +162,7 @@ nav {
     padding: 3vh 3vw 3vh 3vw;
     display: flex;
     width: 100vw;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 nav h1 {
@@ -179,6 +179,16 @@ nav h1 {
     visibility: visible;
 }
 
+#nav-left {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+
+#nav-right {
+    margin-left: auto;
+}
+
 .jm2021 {
     /* text-align: right; */
     align-self: flex-end;
@@ -190,7 +200,9 @@ nav h1 {
 }
 
 #nav-container {
-    display: none;
+    /* display: none;
+    display: flex;
+    flex-direction: row; */
 }
 
 .nav-hover:hover {
