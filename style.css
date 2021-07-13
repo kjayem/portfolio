@@ -200,9 +200,7 @@ nav h1 {
 }
 
 #nav-container {
-    /* display: none;
-    display: flex;
-    flex-direction: row; */
+    display: none;
 }
 
 .nav-hover:hover {

@@ -1,3 +1,5 @@
+
+//parallax effect
 const parallax = document.getElementById("parallax-main");
 
 window.addEventListener("scroll", function() {
